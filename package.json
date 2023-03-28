@@ -2,9 +2,10 @@
   "name": "fastify-prisma",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Tom Nagle",
+  "author": "Jonh Wick",
   "license": "MIT",
   "scripts": {
+    "prisma:migrate": "npx prisma migrate dev --name",
     "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts",
     "test": "tap --node-arg=--require=ts-node/register"
   },
