@@ -592,6 +592,17 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@keycloak/keycloak-admin-client@^21.0.1":
+  version "21.0.1"
+  resolved "https://registry.yarnpkg.com/@keycloak/keycloak-admin-client/-/keycloak-admin-client-21.0.1.tgz#7ab50e7ea267c75eb791c236e94fc854fd8337c5"
+  integrity sha512-YPVcgsQvEOQwiLqX94mX4Hn1/u5bg6eKsoBusFIOdBlrCXaG2BsVPjxZs+UIGeTw1w/FTElcVoN2Jn4zLy19cw==
+  dependencies:
+    axios "^0.27.2"
+    camelize-ts "^2.1.1"
+    lodash-es "^4.17.21"
+    url-join "^5.0.0"
+    url-template "^3.0.0"
+
 "@lukeed/ms@^2.0.0":
   version "2.0.0"
   resolved "https://registry.npmjs.org/@lukeed/ms/-/ms-2.0.0.tgz"
@@ -997,6 +1008,11 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   version "5.3.1"
   resolved "https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
+
+camelize-ts@^2.1.1:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/camelize-ts/-/camelize-ts-2.3.0.tgz#8c9b080f647c7055835c1bf36e4b062d34416df3"
+  integrity sha512-rfAXKVm6+mt8r/NBXZl6MS/RlZMoIRGDVp3d7XdKnzhStyiCjLQ+B35SwMRtOl8WaBi2uLp7OBHpoztM1eXIZw==
 
 caniuse-lite@^1.0.30001313:
   version "1.0.30001315"
@@ -2109,6 +2125,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash-es@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
 lodash.flattendeep@^4.4.0:
   version "4.4.0"
   resolved "https://registry.npmjs.org/lodash.flattendeep/-/lodash.flattendeep-4.4.0.tgz"
@@ -3200,6 +3221,16 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+url-join@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/url-join/-/url-join-5.0.0.tgz#c2f1e5cbd95fa91082a93b58a1f42fecb4bdbcf1"
+  integrity sha512-n2huDr9h9yzd6exQVnH/jU5mr+Pfx08LRXXZhkLLetAMESRj+anQsTAh940iMrIetKAmry9coFuZQ2jY8/p3WA==
+
+url-template@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/url-template/-/url-template-3.1.0.tgz#d9be13d342ad31fcedc3c0bd21405fd141d02ff1"
+  integrity sha512-vB/eHWttzhN+NZzk9FcQB2h1cSEgb7zDYyvyxPhw02LYw7YqIzO+w1AqkcKvZ51gPH8o4+nyiWve/xuQqMdJZw==
 
 util-deprecate@^1.0.1:
   version "1.0.2"

@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^6.0.0-beta.0",
+    "@keycloak/keycloak-admin-client": "^21.0.1",
     "@prisma/client": "^3.10.0",
     "@types/qs": "^6.9.7",
     "axios-retry": "^3.4.0",

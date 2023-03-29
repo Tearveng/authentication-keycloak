@@ -1,11 +1,7 @@
 import Fastify, { FastifyRequest, FastifyReply } from "fastify";
 import fjwt, { JWT } from "fastify-jwt";
-import cookie from "@fastify/cookie";
-import session from "@fastify/session";
 import swagger from "fastify-swagger";
 import { withRefResolver } from "fastify-zod";
-import userRoutes from "./modules/user/user.route";
-import productRoutes from "./modules/product/product.route";
 import { userSchemas } from "./modules/user/user.schema";
 import { productSchemas } from "./modules/product/product.schema";
 import { version } from "../package.json";
@@ -41,21 +37,6 @@ function buildServer() {
     // logoutEndpoint: "/logout",
   };
   server.register(keycloak, opts);
-
-  // server.register(fjwt, {
-  //   secret: "ndkandnan78duy9sau87dbndsa89u7dsy789adb",
-  // });
-
-  // server.decorate(
-  //   "authenticate",
-  //   async (request: FastifyRequest, reply: FastifyReply) => {
-  //     try {
-  //       await request.jwtVerify();
-  //     } catch (e) {
-  //       return reply.send(e);
-  //     }
-  //   }
-  // );
 
   server.get("/healthcheck", async function () {
     return { status: "OK" };
